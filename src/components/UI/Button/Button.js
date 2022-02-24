@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 
 const Button  = styled.button`
+    
   width: 100%;
   font: inherit;
   padding: 0.5rem 1.5rem;
@@ -12,9 +13,9 @@ const Button  = styled.button`
   cursor: pointer;
 
   @media (min-width: 768px){
-    width: auto
+    width: auto;
   }
-
+  
   &:focus {
     outline: none;
   }
